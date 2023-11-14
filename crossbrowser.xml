@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CrossBrowserTestSuite">
+    <test name="CrossBrowserTest">
+        <parameter name="browser" value="chrome"/> <!-- Change the browser value as needed -->
+        <classes>
+            <class name="crossBrowserTesting.crossbrowserTest"/> <!-- Replace with your actual test class -->
+        </classes>
+    </test>
+    
+    <test name="FirefoxTest">
+        <parameter name="browser" value="firefox"/> <!-- Change the browser value as needed -->
+        <classes>
+            <class name="crossBrowserTesting.crossbrowserTest"/> <!-- Replace with your actual test class -->
+        </classes>
+    </test>
+</suite>

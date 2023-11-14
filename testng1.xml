@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Google Apps">
+    <test name="Regression">
+         <classes>
+             <class name="testngBasics.annotationbasics"/>
+             <class name="testngBasics.dependsonmethod"/>
+             <class name="testngBasics.flowOfAnnotations"/>
+             <class name="testngBasics.invocationcount"/>
+             <class name="testngBasics.testcasAssert"/>
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CrossBrowserTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CrossBrowserTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="crossBrowserTesting.crossbrowserTest">
+        <methods>
+          <include name="afterclass"/>
+          <include name="endtest"/>
+          <include name="login"/>
+          <include name="aftermethod"/>
+          <include name="initilization"/>
+          <include name="beforclassmethod"/>
+        </methods>
+      </class> <!-- crossBrowserTesting.crossbrowserTest -->
+    </classes>
+  </test> <!-- CrossBrowserTest(failed) -->
+</suite> <!-- Failed suite [CrossBrowserTestSuite] -->
